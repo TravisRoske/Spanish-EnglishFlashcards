@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HTML 5 Boilerplate</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1>Spanish-English Flashcards</h1>
+
+        <main>
+            <div class="flip-card">
+                <div id="flip-card-inner">
+                  <div class="flip-card-front">
+                    <p id="englishWord">English</p>
+                  </div>
+                  <div class="flip-card-back">
+                    <p id="spanishWord">Spanish</p>
+                  </div>
+                </div>
+              </div>
+        </main>
+
+        <div id="addToList">
+          <form id="addNewWordForm">
+            <label for="newWordTextBox">Add a new word(english) to this list.</label>
+            <input type="text" id="newWordTextBox">
+            <input type="submit" id="addNewWordButton">
+          </form>
+        </div>
+
+
+        <script type="module" src="./index.js"></script>
+        <!-- <script type="module" src="./translate.js"></script> -->
+        <!-- <script  src="./index.js"></script> -->
+
+    </body>
+
+
+</html>
